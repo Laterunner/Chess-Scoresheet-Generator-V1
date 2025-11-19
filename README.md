@@ -5,7 +5,7 @@
 - ✅ Empty fields will be filled with ____
 - ✅ Header only appears on page 1 (optionally expandable)
 
-💻 How to install:
+🧪 How to install:
   pip install python-chess reportlab pdf2image
   
 💻 Use example: PGN → PDF + JPG
