@@ -6,7 +6,7 @@
 - ✅ Header only appears on page 1 (optionally expandable)
 
 🧪 How to install:
-  pip install python-chess reportlab pdf2image
+    pip install python-chess reportlab pdf2image
   
 💻 Use example: PGN → PDF + JPG
 
