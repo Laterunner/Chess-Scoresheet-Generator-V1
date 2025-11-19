@@ -1,14 +1,15 @@
 # Chess-Scoresheet-Generator-V1
-🔍 Was dieser Code leistet
-- ✅ Automatische Seitenumbrüche bei langen Partien
-- ✅ Jede Seite zeigt 60 Zugpaare (3 Spalten × 20 Zeilen)
-- ✅ Leere Felder werden mit ____ gefüllt
-- ✅ Kopfzeile erscheint nur auf Seite 1 (optional erweiterbar)
+🔍 What this code does
+- ✅ Automatic page breaks for long games
+- ✅ Each page shows 60 pairs of moves (3 columns × 20 rows)
+- ✅ Empty fields will be filled with ____
+- ✅ Header only appears on page 1 (optionally expandable)
 
 💻 How to install
   pip install python-chess reportlab pdf2image
   
 💻 Use example: PGN → PDF + JPG
+
 pgn_to_scoresheet_unlimited(
     pgn_path="partie.pgn",
     output_pdf="scoresheet_marius.pdf",
