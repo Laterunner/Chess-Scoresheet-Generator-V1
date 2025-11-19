@@ -4,3 +4,14 @@
 - ✅ Jede Seite zeigt 60 Zugpaare (3 Spalten × 20 Zeilen)
 - ✅ Leere Felder werden mit ____ gefüllt
 - ✅ Kopfzeile erscheint nur auf Seite 1 (optional erweiterbar)
+
+💻 How to use
+  pip install python-chess reportlab pdf2image
+  
+# Example: PGN → PDF + JPG
+pgn_to_scoresheet_unlimited(
+    pgn_path="partie.pgn",
+    output_pdf="scoresheet_marius.pdf",
+    export_jpg=True,
+    poppler_path="C:/Tools/poppler/bin"  # only in windows
+)
