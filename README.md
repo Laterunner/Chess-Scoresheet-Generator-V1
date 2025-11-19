@@ -16,3 +16,6 @@ pgn_to_scoresheet_unlimited(
     export_jpg=True,
     poppler_path="C:/Tools/poppler/bin"  # only in windows
 )
+
+📜 License
+  This tool is free to use and can be adapted for club, tournament, or personal use.
